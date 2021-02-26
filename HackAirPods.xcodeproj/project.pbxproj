@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		511CCFCD25E9514600678DD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511CCFCC25E9514600678DD9 /* AppDelegate.swift */; };
+		511CCFCF25E9514600678DD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511CCFCE25E9514600678DD9 /* SceneDelegate.swift */; };
+		511CCFD125E9514600678DD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511CCFD025E9514600678DD9 /* ViewController.swift */; };
+		511CCFD425E9514600678DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511CCFD225E9514600678DD9 /* Main.storyboard */; };
+		511CCFD625E9514800678DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511CCFD525E9514800678DD9 /* Assets.xcassets */; };
+		511CCFD925E9514800678DD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511CCFD725E9514800678DD9 /* LaunchScreen.storyboard */; };
+		511CCFE425E9514900678DD9 /* HackAirPodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511CCFE325E9514900678DD9 /* HackAirPodsTests.swift */; };
+		511CCFEF25E9514900678DD9 /* HackAirPodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511CCFEE25E9514900678DD9 /* HackAirPodsUITests.swift */; };
+		5198416125E99F370079C68D /* GestureRecognition.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5198416025E99F370079C68D /* GestureRecognition.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		511CCFE025E9514900678DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 511CCFC125E9514600678DD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 511CCFC825E9514600678DD9;
+			remoteInfo = HackAirPods;
+		};
+		511CCFEB25E9514900678DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 511CCFC125E9514600678DD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 511CCFC825E9514600678DD9;
+			remoteInfo = HackAirPods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		511CCFC925E9514600678DD9 /* HackAirPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackAirPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		511CCFCC25E9514600678DD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		511CCFCE25E9514600678DD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		511CCFD025E9514600678DD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		511CCFD325E9514600678DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		511CCFD525E9514800678DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		511CCFD825E9514800678DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		511CCFDA25E9514800678DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		511CCFDF25E9514900678DD9 /* HackAirPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackAirPodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		511CCFE325E9514900678DD9 /* HackAirPodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackAirPodsTests.swift; sourceTree = "<group>"; };
+		511CCFE525E9514900678DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		511CCFEA25E9514900678DD9 /* HackAirPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackAirPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		511CCFEE25E9514900678DD9 /* HackAirPodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackAirPodsUITests.swift; sourceTree = "<group>"; };
+		511CCFF025E9514900678DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5198416025E99F370079C68D /* GestureRecognition.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GestureRecognition.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		511CCFC625E9514600678DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511CCFDC25E9514900678DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511CCFE725E9514900678DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		511CCFC025E9514600678DD9 = {
+			isa = PBXGroup;
+			children = (
+				511CCFCB25E9514600678DD9 /* HackAirPods */,
+				511CCFE225E9514900678DD9 /* HackAirPodsTests */,
+				511CCFED25E9514900678DD9 /* HackAirPodsUITests */,
+				511CCFCA25E9514600678DD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		511CCFCA25E9514600678DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				511CCFC925E9514600678DD9 /* HackAirPods.app */,
+				511CCFDF25E9514900678DD9 /* HackAirPodsTests.xctest */,
+				511CCFEA25E9514900678DD9 /* HackAirPodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		511CCFCB25E9514600678DD9 /* HackAirPods */ = {
+			isa = PBXGroup;
+			children = (
+				511CCFCC25E9514600678DD9 /* AppDelegate.swift */,
+				511CCFCE25E9514600678DD9 /* SceneDelegate.swift */,
+				511CCFD025E9514600678DD9 /* ViewController.swift */,
+				511CCFD225E9514600678DD9 /* Main.storyboard */,
+				5198416025E99F370079C68D /* GestureRecognition.mlmodel */,
+				511CCFD525E9514800678DD9 /* Assets.xcassets */,
+				511CCFD725E9514800678DD9 /* LaunchScreen.storyboard */,
+				511CCFDA25E9514800678DD9 /* Info.plist */,
+			);
+			path = HackAirPods;
+			sourceTree = "<group>";
+		};
+		511CCFE225E9514900678DD9 /* HackAirPodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				511CCFE325E9514900678DD9 /* HackAirPodsTests.swift */,
+				511CCFE525E9514900678DD9 /* Info.plist */,
+			);
+			path = HackAirPodsTests;
+			sourceTree = "<group>";
+		};
+		511CCFED25E9514900678DD9 /* HackAirPodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				511CCFEE25E9514900678DD9 /* HackAirPodsUITests.swift */,
+				511CCFF025E9514900678DD9 /* Info.plist */,
+			);
+			path = HackAirPodsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		511CCFC825E9514600678DD9 /* HackAirPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 511CCFF325E9514900678DD9 /* Build configuration list for PBXNativeTarget "HackAirPods" */;
+			buildPhases = (
+				511CCFC525E9514600678DD9 /* Sources */,
+				511CCFC625E9514600678DD9 /* Frameworks */,
+				511CCFC725E9514600678DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackAirPods;
+			productName = HackAirPods;
+			productReference = 511CCFC925E9514600678DD9 /* HackAirPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		511CCFDE25E9514900678DD9 /* HackAirPodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 511CCFF625E9514900678DD9 /* Build configuration list for PBXNativeTarget "HackAirPodsTests" */;
+			buildPhases = (
+				511CCFDB25E9514900678DD9 /* Sources */,
+				511CCFDC25E9514900678DD9 /* Frameworks */,
+				511CCFDD25E9514900678DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				511CCFE125E9514900678DD9 /* PBXTargetDependency */,
+			);
+			name = HackAirPodsTests;
+			productName = HackAirPodsTests;
+			productReference = 511CCFDF25E9514900678DD9 /* HackAirPodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		511CCFE925E9514900678DD9 /* HackAirPodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 511CCFF925E9514900678DD9 /* Build configuration list for PBXNativeTarget "HackAirPodsUITests" */;
+			buildPhases = (
+				511CCFE625E9514900678DD9 /* Sources */,
+				511CCFE725E9514900678DD9 /* Frameworks */,
+				511CCFE825E9514900678DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				511CCFEC25E9514900678DD9 /* PBXTargetDependency */,
+			);
+			name = HackAirPodsUITests;
+			productName = HackAirPodsUITests;
+			productReference = 511CCFEA25E9514900678DD9 /* HackAirPodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		511CCFC125E9514600678DD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					511CCFC825E9514600678DD9 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					511CCFDE25E9514900678DD9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 511CCFC825E9514600678DD9;
+					};
+					511CCFE925E9514900678DD9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 511CCFC825E9514600678DD9;
+					};
+				};
+			};
+			buildConfigurationList = 511CCFC425E9514600678DD9 /* Build configuration list for PBXProject "HackAirPods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 511CCFC025E9514600678DD9;
+			productRefGroup = 511CCFCA25E9514600678DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				511CCFC825E9514600678DD9 /* HackAirPods */,
+				511CCFDE25E9514900678DD9 /* HackAirPodsTests */,
+				511CCFE925E9514900678DD9 /* HackAirPodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		511CCFC725E9514600678DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511CCFD925E9514800678DD9 /* LaunchScreen.storyboard in Resources */,
+				511CCFD625E9514800678DD9 /* Assets.xcassets in Resources */,
+				511CCFD425E9514600678DD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511CCFDD25E9514900678DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511CCFE825E9514900678DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		511CCFC525E9514600678DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511CCFD125E9514600678DD9 /* ViewController.swift in Sources */,
+				511CCFCD25E9514600678DD9 /* AppDelegate.swift in Sources */,
+				5198416125E99F370079C68D /* GestureRecognition.mlmodel in Sources */,
+				511CCFCF25E9514600678DD9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511CCFDB25E9514900678DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511CCFE425E9514900678DD9 /* HackAirPodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511CCFE625E9514900678DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511CCFEF25E9514900678DD9 /* HackAirPodsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		511CCFE125E9514900678DD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 511CCFC825E9514600678DD9 /* HackAirPods */;
+			targetProxy = 511CCFE025E9514900678DD9 /* PBXContainerItemProxy */;
+		};
+		511CCFEC25E9514900678DD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 511CCFC825E9514600678DD9 /* HackAirPods */;
+			targetProxy = 511CCFEB25E9514900678DD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		511CCFD225E9514600678DD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				511CCFD325E9514600678DD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		511CCFD725E9514800678DD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				511CCFD825E9514800678DD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		511CCFF125E9514900678DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		511CCFF225E9514900678DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		511CCFF425E9514900678DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 369JAH3TX6;
+				INFOPLIST_FILE = HackAirPods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = momosuke.hackAirPods.HackAirPods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		511CCFF525E9514900678DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 369JAH3TX6;
+				INFOPLIST_FILE = HackAirPods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = momosuke.hackAirPods.HackAirPods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		511CCFF725E9514900678DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 369JAH3TX6;
+				INFOPLIST_FILE = HackAirPodsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = momosuke.hackAirPods.HackAirPodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackAirPods.app/HackAirPods";
+			};
+			name = Debug;
+		};
+		511CCFF825E9514900678DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 369JAH3TX6;
+				INFOPLIST_FILE = HackAirPodsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = momosuke.hackAirPods.HackAirPodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackAirPods.app/HackAirPods";
+			};
+			name = Release;
+		};
+		511CCFFA25E9514900678DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 369JAH3TX6;
+				INFOPLIST_FILE = HackAirPodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = momosuke.hackAirPods.HackAirPodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackAirPods;
+			};
+			name = Debug;
+		};
+		511CCFFB25E9514900678DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 369JAH3TX6;
+				INFOPLIST_FILE = HackAirPodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = momosuke.hackAirPods.HackAirPodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackAirPods;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		511CCFC425E9514600678DD9 /* Build configuration list for PBXProject "HackAirPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511CCFF125E9514900678DD9 /* Debug */,
+				511CCFF225E9514900678DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		511CCFF325E9514900678DD9 /* Build configuration list for PBXNativeTarget "HackAirPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511CCFF425E9514900678DD9 /* Debug */,
+				511CCFF525E9514900678DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		511CCFF625E9514900678DD9 /* Build configuration list for PBXNativeTarget "HackAirPodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511CCFF725E9514900678DD9 /* Debug */,
+				511CCFF825E9514900678DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		511CCFF925E9514900678DD9 /* Build configuration list for PBXNativeTarget "HackAirPodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511CCFFA25E9514900678DD9 /* Debug */,
+				511CCFFB25E9514900678DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 511CCFC125E9514600678DD9 /* Project object */;
+}
